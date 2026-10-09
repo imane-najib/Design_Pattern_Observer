@@ -15,10 +15,14 @@ public class Main {
 
         observable.subscribe(ob1);
         observable.subscribe(ob2);
+
         observable.subscribe(new Observer() {
             @Override
-            public void update(int newState) {
-                System.out.println("Res = " + newState * Math.cos(newState));
+            public void update(Observable o) {
+                if(o instanceof ObservableImpl obs) {
+                    System.out.println("Res = " + obs.getState() * Math.cos(obs.getState()));
+                }
+
             }
         });
         observable.setState(60);
