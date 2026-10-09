@@ -12,6 +12,7 @@
 
 ## Methode pull ou pop
 ### Les changements effectués dans les interfaces et leur implémentation
+
 <img width="1126" height="850" alt="image" src="https://github.com/user-attachments/assets/ef5ef0c0-2aef-4aa4-a2b7-bcf210d7f37c" />
 <img width="691" height="262" alt="image" src="https://github.com/user-attachments/assets/86aa6a25-a1fd-40fa-bb10-d70988f1b3e4" />
 <img width="847" height="572" alt="image" src="https://github.com/user-attachments/assets/f07fe01f-4425-4d26-8db0-38ae042d69bc" />
